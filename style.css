@@ -8,4 +8,23 @@
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding: 10px;
+}
+.todo-app{
+    width:100%;
+    max-width: 540px;
+    background: #002765;
+    margin: 100px auto 20px;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.todo-app h2{
+    color:rgba(253,187,45,1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
 }
